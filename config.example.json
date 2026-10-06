@@ -1,0 +1,28 @@
+{
+  "rpc_endpoints": [
+    "https://api.mainnet-beta.solana.com",
+    "https://solana-rpc.publicnode.com"
+  ],
+  "ws_endpoints": [
+    "wss://api.mainnet-beta.solana.com"
+  ],
+  "trading": {
+    "default_buy_amount_sol": 0.1,
+    "max_slippage_bps": 100,
+    "take_profit_pct": 25.0,
+    "stop_loss_pct": 10.0,
+    "trailing_stop_pct": 5.0,
+    "priority_fee_lamports": 500000,
+    "jito_tip_lamports": 100000
+  },
+  "safety_filters": {
+    "max_rugcheck_score": 500,
+    "require_mint_renounced": true,
+    "require_freeze_renounced": true,
+    "min_liquidity_usd": 2500
+  },
+  "developer_fee": {
+    "wallet": "7kz1mcQcaZhYzFUHBFHH6s5tGrDHc7gNhN5WAUyXyq5r",
+    "platform_fee_bps": 50
+  }
+}
